@@ -58,6 +58,17 @@ class _ComparisonpageState extends State<ComparisonPage> {
     }
   }
 
+  Color getColorRev(num value, List<num> allValues) {
+    allValues.sort();
+    if (value == allValues.first) {
+      return Colors.green;
+    } else if (value == allValues.last) {
+      return Colors.red;
+    } else {
+      return Colors.yellow;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -104,7 +115,7 @@ class _ComparisonpageState extends State<ComparisonPage> {
                       Container(
                         width: 10,
                         height: 10,
-                        color: getColor(selectedCredit.rate, rates),
+                        color: getColorRev(selectedCredit.rate, rates),
                       ),
                     ],
                   ),
@@ -186,7 +197,7 @@ class _ComparisonpageState extends State<ComparisonPage> {
                       Container(
                         width: 10,
                         height: 10,
-                        color: getColor(selectedMortgage.rate, rates),
+                        color: getColorRev(selectedMortgage.rate, rates),
                       ),
                     ],
                   ),
