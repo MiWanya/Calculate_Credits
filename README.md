@@ -41,7 +41,7 @@
 
 ## 📸 Скриншоты
 
-<div align="center"> <img src="screenshots/screen1.jpg" alt="Экран расчёта" width="200"/> <img src="screenshots/screen2.jpg" alt="Результаты расчёта" width="200"/> <img src="screenshots/screen3.jpg" alt="Сравнение расчётов" width="200"/> </div>
+<div align="center"> <img src="screenshots/screen1.png" alt="Экран расчёта" width="200"/> <img src="screenshots/screen2.png" alt="Результаты расчёта" width="200"/> <img src="screenshots/screen3.png" alt="Сравнение расчётов" width="200"/> </div>
 
 ### 📫 Связь
 Если у вас есть вопросы или предложения, свяжитесь со мной:
