@@ -34,10 +34,10 @@
 ### Шаги для запуска:
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/MiWanya/VolunteerFinal.git
+   git clone https://github.com/MiWanya/Calculate_Credits.git
 2. Перейдите в папку проекта.
    ```bash
-   cd VolunteerFinal
+   cd Calculate_Credits
 3. Установите все зависимости.
    ```bash
    flutter pub get
